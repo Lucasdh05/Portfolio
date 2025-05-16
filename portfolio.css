@@ -1,6 +1,12 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+}
+
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #213448;
+    background: linear-gradient(#213448, #355980, #4e7aa9);
 }
 
 .header {
@@ -15,6 +21,49 @@ body {
     border-color: #94B4C1;
 }
 
+.heading{
+    padding: 0.5%;
+}
+
 h2 {
+    color: #ECEFCA;
+}
+
+h3 {
+    color: #ECEFCA
+}
+
+.about {
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: #ECEFCA;
+}
+
+.cv {
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: #ECEFCA;
+}
+
+.experience {
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: #ECEFCA;
+}
+
+.projects {
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: #ECEFCA;
+}
+
+.contacts {
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
     color: #ECEFCA;
 }
