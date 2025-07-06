@@ -67,3 +67,25 @@ h3 {
     padding-left: 10%;
     color: #ECEFCA;
 }
+
+.cvimg {
+    border-style: solid;
+    border-color: #94B4C1;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 1%;
+    color: #ECEFCA;
+    text-decoration: none;
+    background-color: #6e8ea6;
+    transition: background-color 0.3s ease;
+}
+
+.cvimg:hover {
+    background-color: #547792;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
